@@ -17,7 +17,7 @@ tag = TelegramClient("tag", API_ID, API_HASH)
 spam_chats = []
 
 
-@tag.on(events.NewMessage(pattern="^/all ?(.*)"))
+@tag.on(events.NewMessage(pattern="^/mall ?(.*)"))
 async def mentionall(event):
     chat_id = event.chat_id
     if event.is_private:
