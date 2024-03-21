@@ -11,9 +11,9 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["mping"]
-START_COMMAND : ["mstart"]
-HELP_COMMAND : ["mhelp"]
+PING_COMMAND : ["ping"]
+START_COMMAND : ["start"]
+HELP_COMMAND : ["help"]
 SETTINGS_COMMAND : ["msettings", "msetting"]
 RELOAD_COMMAND : ["admincache", "mreload"]
 GSTATS_COMMAND : ["mgstats"]
